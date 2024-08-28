@@ -1,0 +1,54 @@
+#account-opening-container {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #account-opening-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    height: fit-content;
+    width: 40%; /* Adjust this as per your design */
+  }
+  
+  #account-opening-form input,
+  #account-opening-form select {
+    display: block;
+    width: 90%;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 2px solid #e63946;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #account-opening-form input:focus,
+  #account-opening-form select:focus {
+    background-color: whitesmoke;
+    border-radius: 20px;
+  }
+  
+  #account-opening-form button {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    width: 200px;
+    background-color: #e63946;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #account-opening-form button:hover {
+    background-color: #1d3557;
+  }
+  
